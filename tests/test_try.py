@@ -1,5 +1,7 @@
-import sude_cislo
+import sys
 import pytest
+sys.path.append('./')
+import sude_cislo
 
 
 def test_is_even():
