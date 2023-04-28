@@ -22,7 +22,7 @@ jobs:
 
       - name: Test project
         run: |     
-          pytest --html=report.html --css=highcontrast.css --css=accessible.css
+          pytest --html=report.html --self-contained-html
           
       - name: Upload pytest test results
         uses: actions/upload-artifact@v3
