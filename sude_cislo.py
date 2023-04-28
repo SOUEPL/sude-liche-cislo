@@ -13,7 +13,7 @@ def is_even(number):
         return False
 
 
-vstup = "244"
+vstup = "24455"
 cislo = check_entry(vstup)
 
 if is_even(cislo):
