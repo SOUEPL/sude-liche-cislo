@@ -22,5 +22,5 @@ jobs:
 
       - name: Test project
         run: |     
-          pytest --github-report tests
+          pytest tests/base --cov=spock --cov-config=.coveragerc --junitxml=junit/test-results-${{ matrix.python-version }}.xml --cov-report=xml --cov-report=html
           
