@@ -1,4 +1,4 @@
-name: Starter Workflow Demo
+name: Pytest program
 
 on: push
 
