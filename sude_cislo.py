@@ -8,9 +8,9 @@ def check_entry(a):
 
 def is_even(number):
     if number % 2 == 0:
-        return True
-    else:
         return False
+    else:
+        return True
 
 
 vstup = "24455"
