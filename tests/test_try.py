@@ -1,4 +1,6 @@
+import sys
 import pytest
+sys.path.append(".")  # Adds higher directory to python modules path.
 import sude_cislo
 
 
