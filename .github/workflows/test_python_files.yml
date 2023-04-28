@@ -1,9 +1,7 @@
-Name: Starter Workflow Demo
-on:
-  push:
-    branches: main
-  pull_request:
-    branches: main  
+name: Pytest program
+
+on: push
+
 jobs:
   build:
     runs-on: ubuntu-latest
