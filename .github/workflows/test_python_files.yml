@@ -11,5 +11,6 @@ jobs:
       - name: checkout changes
         run: echo This is a demo start workflow
         
-      - name: Set up Python 3.11
       - uses: actions/setup-python@v4
+      - name: Set up Python 3.11
+      
