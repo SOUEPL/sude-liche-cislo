@@ -1,8 +1,7 @@
 # Do not edit these lines
-
 import sys
 import pytest
-sys.path.append(".")  # Adds higher directory to python modules path.
+sys.path.insert(0, "./")  # Adds higher directory to python modules path.
 import sude_cislo
 
 
