@@ -13,10 +13,15 @@ def is_even(number):
         return False
 
 
-vstup = "24455"
-cislo = check_entry(vstup)
+def main():
+    vstup = input("Zadejte celé číslo: ")
+    cislo = check_entry(vstup)
 
-if is_even(cislo):
-    print("Zadané číslo je sudé.")
-else:
-    print("Zadané číslo je liché.")
+    if is_even(cislo):
+        print("Zadané číslo je sudé.")
+    else:
+        print("Zadané číslo je liché.")
+
+
+if __name__ == "__main__":
+    main()
